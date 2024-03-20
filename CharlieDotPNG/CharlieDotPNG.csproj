@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bundle\friendship" />
+    <None Remove="CharlieStuff\Ally_icon.png" />
+    <None Remove="CharlieStuff\CharlieBack.png" />
+    <None Remove="CharlieStuff\CharlieFront.png" />
+    <None Remove="CharlieStuff\CharlieMenu.png" />
+    <None Remove="CharlieStuff\CharlieWorld.png" />
+    <None Remove="CharlieStuff\Charlie_icon.png" />
+    <None Remove="CharlieStuff\Charlie_Overworld.png" />
+    <None Remove="CharlieStuff\DitchedBack.png" />
+    <None Remove="CharlieStuff\DitchedFront.png" />
+    <None Remove="CharlieStuff\DontDoThat_icon.png" />
+    <None Remove="CharlieStuff\LeftSlay_icon.png" />
+    <None Remove="CharlieStuff\LeftSplice_icon.png" />
+    <None Remove="CharlieStuff\Melee_icon.png" />
+    <None Remove="CharlieStuff\Preparation_icon.png" />
+    <None Remove="CharlieStuff\Re-disguise_icon.png" />
+    <None Remove="CharlieStuff\RightSlay_icon.png" />
+    <None Remove="CharlieStuff\RightSplice_icon.png" />
+    <None Remove="CharlieStuff\Stab_icon.png" />
+    <None Remove="CharlieStuff\Stick_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="bundle\friendship" />
+    <EmbeddedResource Include="CharlieStuff\Ally_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\CharlieBack.png" />
+    <EmbeddedResource Include="CharlieStuff\CharlieFront.png" />
+    <EmbeddedResource Include="CharlieStuff\CharlieMenu.png" />
+    <EmbeddedResource Include="CharlieStuff\CharlieWorld.png" />
+    <EmbeddedResource Include="CharlieStuff\Charlie_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Charlie_Overworld.png" />
+    <EmbeddedResource Include="CharlieStuff\DitchedBack.png" />
+    <EmbeddedResource Include="CharlieStuff\DitchedFront.png" />
+    <EmbeddedResource Include="CharlieStuff\DontDoThat_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\LeftSlay_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\LeftSplice_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Melee_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Preparation_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Re-disguise_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\RightSlay_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\RightSplice_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Stab_icon.png" />
+    <EmbeddedResource Include="CharlieStuff\Stick_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Album">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Album.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnityResonance">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnityResonance.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.SerializableCollections">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.SerializableCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.Utility">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Unity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
